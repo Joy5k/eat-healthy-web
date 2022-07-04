@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.first-section{
+    display: flex;
+    margin: 5%;
+
+}
+.first-child{
+    width: 50%;
+}
+.first-child img{
+    width: 80%;
+    margin-top: -2%;
+    margin-left: 50px;
+
+}
+h1{
+    font-weight:bolder;
+    font-size: 50px;
+    color: rgb(71, 70, 70);
+}
+a{
+    text-decoration: none;
+    background:linear-gradient(to right,orange,tomato) ;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 60px;
+}
+.second-section img{
+    margin-left: -3%;
+    margin-right: 30px;
+}
+.second-section{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+}
+.second-section div{
+    padding: 10px 50px;
+}
+
+.third-header {
+    text-align: center;
+}
+.second-para{
+    text-align: center;
+}
+/*---------------------------third section-------------------------*/
+.third-section{
+    display: flex;
+}
+.third-section div img{
+    width: 100%;
+}
+.third-section div{
+    margin: 80px 40px;
+    box-shadow: 10px 10px 60px gray;
+    border: 40px solid white;
+ justify-content:flex-end;
+    border-radius: 30px;
+}
+/*----------------------first footer----------------------*/
+.follwers{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 100px rgb(214, 199, 199);
+    margin: 50px;
+    border-radius: 20px;
+    padding: 50px;
+}
+/*--------------------------footer section-----------------*/
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 30px;
+}
+span{
+    color: tomato;
+}
+ h3{
+    margin-bottom: 20px;
+    
+}
